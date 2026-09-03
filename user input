@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int usia;
+    
+    // Menampilkan pesan ke layar
+    cout << "Masukkan usia Anda: ";
+    
+    // Menerima input dari keyboard
+    cin >> usia;
+    
+    // Menampilkan kembali input
+    cout << "Usia Anda adalah: " << usia << endl;
+    
+    return 0;
+}
