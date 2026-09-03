@@ -1,0 +1,14 @@
+#iostream>
+using namespace std;
+
+int main() {
+    int umur = 20;               // Bilangan bulat
+    double tinggi = 175.5;       // Bilangan desimal
+    char jenisKelamin = 'L';     // Karakter tunggal
+    bool isStudent = true;       // Boolean
+    string nama = "Budi";        // Teks
+
+    cout << "Nama: " << nama << endl;
+    cout << "Umur: " << umur << " tahun" << endl;
+    return 0;
+}
